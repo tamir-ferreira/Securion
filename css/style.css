@@ -27,10 +27,17 @@ h1 {
    padding: 0 75px;
 }
 
-nav {
+nav a {
+   color: #F0F0F5;
    font-size: 20px;
    font-family: roboto, sans-serif;
    padding: 0 75px;
+   text-decoration: none;
+}
+
+nav:hover {
+   text-shadow: 2px 2px 5px black;
+   transform: translateY(3px);
 }
 
 main {
@@ -59,6 +66,7 @@ button {
    font-family: roboto, sans-serif;
    font-size: 20px;
    margin-top: 20px;
+   cursor: pointer;
 }
 
 button:hover {
