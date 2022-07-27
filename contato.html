@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DESCRIÇÃO DO PROJETO"> <!-- alterar descrição -->
+    <title>Envie sua mensagem</title> <!-- alterar título -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="icon" href="ÍCONE DO PROJETO"> <!-- alterar icon -->
+    <script src="https://kit.fontawesome.com/0b165d48f8.js" crossorigin="anonymous"></script>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="navbar-logo"><img src="./images/logo.svg" alt="logo" /></li>
+            <li class="navbar-toggle"><i class="fas fa-bars"></i></li>
+            <li class="navbar-links"><a href="./index.html">Voltar para o início</a></li>
+        </ul>
+    </nav>
+        <form action="" method="post" autocomplete="off">
+            <h1>Envie sua<br>mensagem</h1>
+            <fieldset>
+                <div class="field">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="field">
+                        <label for="celphone">Celular</label>
+                        <input type="text" name="celphone" required>
+                    </div>
+                </div>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="request">Tipo da Solicitação</label>
+                        <select name="type" id="">
+                            <option value="1">Sugestão</option>
+                            <option value="2">Reclamação</option>
+                            <option value="3">Denúncia</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="subject">Assunto</label>
+                        <input type="text" name="subject" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" rows="5" required=""></textarea>
+                </div>
+            </fieldset>
+            <div class="field-button">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

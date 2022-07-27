@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #F0F0F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #322153;
+    font-family: Ubuntu, sans-serif;
+}
+
+/* css navbar  */
+
+.navbar ul {
+    align-items: center;
+    background-color: #656FDB;
+    color: #f0f0f0;
+    display: flex;
+    height: 76px;
+}
+.navbar li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.navbar a {
+    color: #f0f0f0;
+}
+
+.navbar-logo {
+    flex: 1;
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+.navbar img {
+    margin-left: 77px;
+}
+.navbar li:last-child {
+    margin-right: 77px;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    .navbar ul {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .navbar li:last-child {
+        margin: auto;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-links {
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+    .active {
+        display: block;
+    }
+
+}
+
+form {
+    background-color: white;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 56px auto;
+    max-width: 730px;
+    padding: 64px;
+
+}
+
+form h1 {
+    font-size: 36px;
+}
+
+form fieldset {
+    border: 0;
+    color: #6C6C80;
+    margin-top: 64px;
+}
+
+form .field {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+form .field-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form input,
+form select,
+form option,
+form textarea {
+    background-color: #f0f0f0;
+    border: 0;
+    border-radius: 8px;
+    font-weight: lighter;
+    outline-color: #656FDB;
+    padding: 16px 24px;
+    resize: none;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+
+@media screen and (min-width: 607px) {
+    form .field-group .field + .field {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 606px) {
+    form .field-group .field + .field {
+        margin-left: 2px;
+    }
+}
+
+form button {
+    background: #656FDB;
+    border-radius: 8px;
+    border: 0;
+    color: #F0F0F5; 
+    font-size: 14px;
+    font-weight: bold;
+    height: 56px;
+    width: 266px;
+    cursor: pointer;
+
+}
+
+.field-button {
+    border-color: #656FDB;
+    border-width: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
