@@ -1,9 +1,10 @@
 function validate() {
-	var username = document.getElementById("username").value;
-	var password = document.getElementById("password").value;
+	let username = document.getElementById("username").value;
+	let password = document.getElementById("password").value;
 	if (username == "aluno" && password == "123aluno") {
 		alert("Aluno logado com sucesso!");
 		window.location.href = "./feed.html";
+		return false;
 	} else {
 		if (username == "diretor" && password == "123diretor") {
 			alert("Direção logada com sucesso!");
