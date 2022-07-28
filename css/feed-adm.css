@@ -69,8 +69,9 @@ button.btn-suggestion:hover {
 article {
 	border: 1px solid #6c6c80;
 	border-radius: 20px;
-	padding: 35px;
-	margin: 50px 50px 0 50px;
+	padding: 25px;
+	margin: 50px 5% 0 5%;
+	text-align: justify;
 }
 
 span.complaint {
@@ -89,7 +90,7 @@ span.suggestion {
 }
 
 h1 {
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 	font-weight: 700;
 	font-size: 33px;
 }
@@ -115,4 +116,12 @@ p {
 	font-weight: 400;
 	font-size: 18px;
 	color: #6c6c80;
+}
+
+@media screen and (max-width:700px) {
+	.adm-menu {
+		justify-content: center;
+		gap: 15px;
+	}
+
 }
