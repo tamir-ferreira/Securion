@@ -32,24 +32,33 @@
 				<div id="form-login">
 					<h2>Bem vindo</h2>
 					<form action="#">
-						<label for="inputName">Nome de Usuário</label>
+						<label for="username" id="nomeUsuario"
+							>Nome de Usuário</label
+						>
 						<input
 							type="text"
-							id="inputName"
+							id="username"
 							maxlength="10"
 							required
 						/>
-						<label for="inputPassword">Senha</label>
+						<label for="password" id="senhaUsuario">Senha</label>
 						<input
 							type="password"
-							id="inputPassword"
+							id="password"
 							maxlength="20"
 							required
 						/>
-						<button type="submit">Entrar</button>
+						<button
+							type="button"
+							id="botaoEntrar"
+							onclick="validate()"
+						>
+							Entrar
+						</button>
 					</form>
 				</div>
 			</section>
 		</main>
+		<script src="./js/login.js"></script>
 	</body>
 </html>

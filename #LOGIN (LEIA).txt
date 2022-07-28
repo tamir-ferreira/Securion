@@ -1,0 +1,9 @@
+LOGIN ALUNO
+
+Nome de usuário: aluno
+Senha: 123aluno
+
+LOGIN DIREÇÃO
+
+Nome de usuário: diretor
+Senha: 123diretor
