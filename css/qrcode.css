@@ -26,19 +26,6 @@
 		font-size: 20px;
 	}
 }
-.container button {
-	margin-top: 32px;
-	background: #656fdb;
-	border-radius: 8px;
-	border: 0;
-	color: #f0f0f5;
-	font-size: 14px;
-	font-weight: bold;
-	height: 56px;
-	width: 266px;
-	cursor: pointer;
-	max-width: 100%;
-}
 
 ul li:nth-child(5) {
 	background-color: #5c65c6;
