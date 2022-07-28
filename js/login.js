@@ -6,7 +6,7 @@ function validate() {
 		window.location.href = "./feed.html";
 	} else {
 		if (username == "diretor" && password == "123diretor") {
-			alert("Diretor logado com sucesso!");
+			alert("Direção logada com sucesso!");
 			window.location = "./feed-adm.html";
 			return false;
 		} else {
