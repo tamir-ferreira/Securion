@@ -1,83 +1,81 @@
 .container {
-    background-color: white;
-    border-radius: 8px;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin: 67px auto;
-    max-width: 1069px;
-    padding: 64px;
+	background-color: white;
+	border-radius: 8px;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	margin: 67px auto;
+	max-width: 1069px;
+	padding: 64px;
 }
 
-.container .title{
-    font-size: 36px;
-    margin-bottom: 26px;
-
+.container .title {
+	font-size: 36px;
+	margin-bottom: 26px;
 }
 
 .container .subtitle {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;   
-    color: #6C6C80;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #6c6c80;
 }
 
 .container-camera {
-    margin-top: 46px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+	margin-top: 46px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
 }
 
 @media screen and (max-width: 935px) {
-    .container-camera {
-        justify-content: center;
-    }
+	.container-camera {
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 360px) {
-    .container .title{
-        font-size: 30px;
-    } 
-    .container .subtitle {
-        font-size: 18px;
-    }
+	.container .title {
+		font-size: 30px;
+	}
+	.container .subtitle {
+		font-size: 18px;
+	}
 }
 
 .camera-item {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #6C6C80;
-    border-radius: 20px;
-    max-width: 269px;
-    padding: 20px 20px 11px 20px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #6c6c80;
+	border-radius: 20px;
+	max-width: 269px;
+	padding: 20px 20px 11px 20px;
 }
 
 .cam_title {
-    margin-top: 20px;
-    color: #6C6C80;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
+	margin-top: 20px;
+	color: #6c6c80;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
 }
 
 .cam_desc {
-    color: #6C6C80;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
+	color: #6c6c80;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
 }
 
-.cam_desc.red{
-    color: #DB6565;
+.cam_desc.red {
+	color: #db6565;
 }
 
-.camera-item.red{
-    border: 2.5px solid #DB6565;
+.camera-item.red {
+	border: 2.5px solid #db6565;
 }
-
-
