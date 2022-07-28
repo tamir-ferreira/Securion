@@ -51,16 +51,19 @@ button {
 button.btn-complaint:hover {
 	border-color: #f6bc4a;
 	color: #f6bc4a;
+	cursor: pointer;
 }
 
 button.btn-denunciation:hover {
 	border-color: #db6565;
 	color: #db6565;
+	cursor: pointer;
 }
 
 button.btn-suggestion:hover {
 	border-color: #26ca40;
 	color: #26ca40;
+	cursor: pointer;
 }
 
 article {
