@@ -1,44 +1,46 @@
 .container {
-    background-color: white;
-    border-radius: 8px;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin: 56px auto;
-    max-width: 730px;
-    padding: 64px;
-    text-align: center;
-
+	background-color: white;
+	border-radius: 8px;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	margin: 56px auto;
+	max-width: 730px;
+	padding: 64px;
+	text-align: center;
 }
 
 .container img {
-    margin-top: 35px;
-    margin-bottom: 22px;
+	margin-top: 35px;
+	margin-bottom: 22px;
 }
 
 @media (max-width: 400px) {
-    .container img {
-        width: 100%;
-    }
-    .container p {
-        font-size: 14px;
-    }
-    .container h1 {
-        font-size: 20px;
-    }
+	.container img {
+		width: 100%;
+	}
+	.container p {
+		font-size: 14px;
+	}
+	.container h1 {
+		font-size: 20px;
+	}
 }
 .container button {
-    margin-top: 32px;
-    background: #656FDB;
-    border-radius: 8px;
-    border: 0;
-    color: #F0F0F5; 
-    font-size: 14px;
-    font-weight: bold;
-    height: 56px;
-    width: 266px;
-    cursor: pointer;
-    max-width: 100%;
+	margin-top: 32px;
+	background: #656fdb;
+	border-radius: 8px;
+	border: 0;
+	color: #f0f0f5;
+	font-size: 14px;
+	font-weight: bold;
+	height: 56px;
+	width: 266px;
+	cursor: pointer;
+	max-width: 100%;
 }
 
-
+ul li:nth-child(5) {
+	background-color: #5c65c6;
+	border-radius: 10px;
+}

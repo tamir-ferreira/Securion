@@ -24,8 +24,8 @@ header {
 	box-sizing: border-box;
 	width: 97px;
 	height: 37px;
-	color: #F0F0F5;
-	background-color: #656FDB;
+	color: #f0f0f5;
+	background-color: #656fdb;
 	align-self: center;
 }
 
@@ -36,8 +36,8 @@ header {
 
 .edit-btn {
 	border-radius: 3.5px;
-	border: 1px solid #6C6C80;
-	color: #6C6C80;
+	border: 1px solid #6c6c80;
+	color: #6c6c80;
 	background-color: transparent;
 	box-sizing: border-box;
 	text-align: center;
@@ -62,10 +62,15 @@ header {
 	font-weight: 400;
 	width: auto;
 	height: auto;
-	color: #6C6C80;
+	color: #6c6c80;
 }
 
-#corpoArt:focus-visible, #tituloArt:focus-visible {
+#corpoArt:focus-visible,
+#tituloArt:focus-visible {
 	outline: none;
 }
 
+button:hover {
+	background-color: #5c65c6;
+	cursor: pointer;
+}

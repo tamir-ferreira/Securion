@@ -116,3 +116,8 @@ p {
 	font-size: 18px;
 	color: #6c6c80;
 }
+
+ul li:nth-child(3) {
+	background-color: #5c65c6;
+	border-radius: 10px;
+}

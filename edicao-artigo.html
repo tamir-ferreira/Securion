@@ -1,57 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sistema de Segurança Escolar">
-    <title>Securion • Edição de artigo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/edicao-artigo.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <script src="https://kit.fontawesome.com/0b165d48f8.js" crossorigin="anonymous"></script>
-</head>
-<body>
-	<nav class="navbar">
-        <ul>
-            <li class="navbar-logo"><img src="./images/logo.svg" alt="logo" /></li>
-            <li class="navbar-toggle"><i class="fas fa-bars"></i></li>
-            <li class="navbar-links"><a href="./feed-adm.html">Feed</a></li>
-            <li class="navbar-links"><a href="./artigos.html">Artigos</a></li>
-            <li class="navbar-links"><a href="./cameras.html">Câmeras</a></li>
-            <li class="navbar-links"><a href="#">Sair</a></li>
-        </ul>
-    </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Sistema de Segurança Escolar" />
+		<title>Securion • Edição de artigo</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/edicao-artigo.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./favicon/favicon-16x16.png"
+		/>
+		<script
+			src="https://kit.fontawesome.com/0b165d48f8.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<nav class="navbar">
+			<ul>
+				<li class="navbar-logo">
+					<img src="./images/logo.svg" alt="logo" />
+				</li>
+				<li class="navbar-toggle"><i class="fas fa-bars"></i></li>
+				<li class="navbar-links"><a href="./feed-adm.html">Feed</a></li>
+				<li class="navbar-links">
+					<a href="./artigos.html">Artigos</a>
+				</li>
+				<li class="navbar-links">
+					<a href="./cameras.html">Câmeras</a>
+				</li>
+				<li class="navbar-links"><a href="./index.html">Sair</a></li>
+			</ul>
+		</nav>
 
-    <main>
-    	<header>
-    		<!--<input type="text" id="tituloArt" >-->
-    		<h1 id="tituloArt" contenteditable="true"  spellcheck="true"></h1>
-    		<button type="button" class="post-btn">Postar</button>
-    	</header>
-    	<div class="edit-box">
-    		<select class="edit-btn style-btn">
-    			<option value="bold">Negrito</option>
-    			<option value="normal">Normal</option>
-    			<option value="italic">Itálico</option>
-    			<option value="underlined">Sublinhado</option>
-    		</select>
-    		<select class="edit-btn attachment-btn">
-    			<option>Anexo</option>
-    			<option value="image">Imagem</option>
-    			<option value="file">Arquivo</option>
-    		</select>
-    		<button type="button" class="edit-btn link-btn">Hiperlink</button>
-    	</div>
-    	<div id="corpoArt" contenteditable="true" spellcheck="true"></div>
-    </main>
+		<main>
+			<header>
+				<!--<input type="text" id="tituloArt" >-->
+				<h1
+					id="tituloArt"
+					contenteditable="true"
+					spellcheck="true"
+				></h1>
+				<button type="button" class="post-btn">Postar</button>
+			</header>
+			<div class="edit-box">
+				<select class="edit-btn style-btn">
+					<option value="bold">Negrito</option>
+					<option value="normal">Normal</option>
+					<option value="italic">Itálico</option>
+					<option value="underlined">Sublinhado</option>
+				</select>
+				<select class="edit-btn attachment-btn">
+					<option>Anexo</option>
+					<option value="image">Imagem</option>
+					<option value="file">Arquivo</option>
+				</select>
+				<button type="button" class="edit-btn link-btn">
+					Hiperlink
+				</button>
+			</div>
+			<div id="corpoArt" contenteditable="true" spellcheck="true"></div>
+		</main>
 
-    <script type="text/javascript" src="./js/edicao-artigo.js"></script>
-</body>
+		<script type="text/javascript" src="./js/edicao-artigo.js"></script>
+	</body>
 </html>

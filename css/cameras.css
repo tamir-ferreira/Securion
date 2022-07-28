@@ -79,3 +79,8 @@
 .camera-item.red {
 	border: 2.5px solid #db6565;
 }
+
+ul li:nth-child(5) {
+	background-color: #5c65c6;
+	border-radius: 10px;
+}
