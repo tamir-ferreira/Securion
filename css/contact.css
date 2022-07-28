@@ -1,85 +1,93 @@
 form {
-    background-color: white;
-    border-radius: 8px;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin: 56px auto;
-    max-width: 730px;
-    padding: 64px;
-
+	background-color: white;
+	border-radius: 8px;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	margin: 56px auto;
+	max-width: 730px;
+	padding: 64px;
 }
 
 form h1 {
-    font-size: 36px;
+	font-size: 36px;
 }
 
 form fieldset {
-    border: 0;
-    color: #6C6C80;
-    margin-top: 64px;
+	border: 0;
+	color: #6c6c80;
+	margin-top: 64px;
 }
 
 form .field {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    margin-bottom: 24px;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin-bottom: 24px;
 }
 
 form .field-group {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 form input,
 form select,
 form option,
 form textarea {
-    background-color: #f0f0f0;
-    border: 0;
-    border-radius: 8px;
-    font-weight: lighter;
-    outline-color: #656FDB;
-    padding: 16px 24px;
-    resize: none;
+	background-color: #f0f0f0;
+	border: 0;
+	border-radius: 8px;
+	font-weight: lighter;
+	outline-color: #656fdb;
+	padding: 16px 24px;
+	resize: none;
 }
 
 form label {
-    font-size: 14px;
-    font-weight: lighter;
-    margin-bottom: 8px;
+	font-size: 14px;
+	font-weight: lighter;
+	margin-bottom: 8px;
 }
 
-
 @media screen and (min-width: 607px) {
-    form .field-group .field + .field {
-        margin-left: 24px;
-    }
+	form .field-group .field + .field {
+		margin-left: 24px;
+	}
 }
 
 @media screen and (max-width: 606px) {
-    form .field-group .field + .field {
-        margin-left: 2px;
-    }
+	form .field-group .field + .field {
+		margin-left: 2px;
+	}
 }
 
 form button {
-    background: #656FDB;
-    border-radius: 8px;
-    border: 0;
-    color: #F0F0F5; 
-    font-size: 14px;
-    font-weight: bold;
-    height: 56px;
-    width: 266px;
-    cursor: pointer;
-
+	background: #656fdb;
+	border-radius: 8px;
+	border: 0;
+	color: #f0f0f5;
+	font-size: 14px;
+	font-weight: bold;
+	height: 56px;
+	width: 266px;
+	cursor: pointer;
 }
 
 .field-button {
-    border-color: #656FDB;
-    border-width: 0px;
-    display: flex;
-    justify-content: flex-end;
+	border-color: #656fdb;
+	border-width: 0px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+ul li:nth-child(4) {
+	background-color: #5c65c6;
+	border-radius: 10px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #5c65c6;
+	color: #f0f0f0;
 }

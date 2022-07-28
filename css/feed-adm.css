@@ -118,10 +118,14 @@ p {
 	color: #6c6c80;
 }
 
+ul li:nth-child(3) {
+	background-color: #5c65c6;
+	border-radius: 10px;
+}
+
 @media screen and (max-width:700px) {
 	.adm-menu {
 		justify-content: center;
 		gap: 15px;
 	}
-
 }
