@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap");
+
+table ul li:nth-child(4) {
+	background-color: #5c65c6;
+	border-radius: 10px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-style: normal;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+main {
+	margin: 50px auto;
+}
+
+section.students-list {
+	border: none;
+	background: white;
+	border-radius: 8px;
+	flex-direction: column;
+	padding: 64px;
+	max-width: 1069px;
+}
+
+.title-table {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+input {
+	margin-bottom: 15px;
+}
+
+table {
+	border: 1px solid #f0f0f0;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table th,
+table td {
+	padding: 15px;
+	text-align: center;
+	color: #6c6c80;
+}
+
+table th {
+	color: #191847;
+}
+
+table tr:nth-child(even) {
+	background-color: #f9f9fd;
+}
+
+table tr:hover {
+	background-color: #f0f0f0;
+}
+
+table tr:first-child:hover {
+	background-color: white;
+}
+
+button {
+	background-color: #656fdb;
+	width: 115px;
+	height: 45px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	font-family: "Ubuntu";
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #5c65c6;
+	color: #f0f0f0;
+}
+
+input {
+	background-color: #f0f0f0;
+	border: 0;
+	border-radius: 8px;
+	font-weight: lighter;
+	outline-color: #656fdb;
+	padding: 16px 24px;
+	resize: none;
+}
+
+label {
+	margin: 20px 0 5px 0;
+	display: block;
+	font-size: 18px;
+	color: #6c6c80;
+	font-family: Ubuntu, sans-serif;
+	font-weight: 700;
+}
+
+#page {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}

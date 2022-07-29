@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<meta name="description" content="Sistema de Segurança Escolar" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./favicon/favicon-16x16.png"
+		/>
+		<script
+			src="https://kit.fontawesome.com/0b165d48f8.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="./css/lista-alunos.css" />
+		<title>Securion • Matrículas</title>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar">
+				<ul>
+					<li class="navbar-logo">
+						<img src="./images/logo.svg" alt="logo" />
+					</li>
+					<li class="navbar-toggle"><i class="fas fa-bars"></i></li>
+					<li class="navbar-links">
+						<a href="./feed-adm.html">Feedbacks</a>
+					</li>
+					<li class="navbar-links">
+						<a href="./lista-alunos.html">Matrículas</a>
+					</li>
+					<li class="navbar-links">
+						<a href="./artigos.html">Artigos</a>
+					</li>
+					<li class="navbar-links">
+						<a href="./cameras.html">Câmeras</a>
+					</li>
+					<li class="navbar-links">
+						<a href="./index.html">Sair</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<section class="students-list">
+				<header class="title-table">
+					<h1>Lista de Alunos</h1>
+					<button type="button">Novo +</button>
+				</header>
+				<label for="search-box">Filtrar</label>
+				<input type="text" id="search-box" onkeyup="search()" />
+				<table id="students">
+					<tr>
+						<th>Aluno</th>
+						<th>E-mail</th>
+						<th>Turma</th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<td>Melissa Gonçalves</td>
+						<td>email@email.com</td>
+						<td>9-A</td>
+						<td>
+							<a href="#">
+								<img src="./images/editar.png" alt="" />
+							</a>
+						</td>
+						<td>
+							<a href="#">
+								<img src="./images/apagar.png" alt="" />
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Lorena Martins</td>
+						<td>email@email.com</td>
+						<td>9-A</td>
+						<td>
+							<a href="#">
+								<img src="./images/editar.png" alt="" />
+							</a>
+						</td>
+						<td>
+							<a href="#">
+								<img src="./images/apagar.png" alt="" />
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Henrique Aguiar</td>
+						<td>email@email.com</td>
+						<td>9-A</td>
+						<td>
+							<a href="#">
+								<img src="./images/editar.png" alt="" />
+							</a>
+						</td>
+						<td>
+							<a href="#">
+								<img src="./images/apagar.png" alt="" />
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Luana Freitas</td>
+						<td>email@email.com</td>
+						<td>9-A</td>
+						<td>
+							<a href="#">
+								<img src="./images/editar.png" alt="" />
+							</a>
+						</td>
+						<td>
+							<a href="#">
+								<img src="./images/apagar.png" alt="" />
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Gabriel Farias</td>
+						<td>email@email.com</td>
+						<td>9-A</td>
+						<td>
+							<a href="#">
+								<img src="./images/editar.png" alt="" />
+							</a>
+						</td>
+						<td>
+							<a href="#">
+								<img src="./images/apagar.png" alt="" />
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Maria Vitória Fogaça</td>
+						<td>email@email.com</td>
+						<td>9-A</td>
+						<td>
+							<a href="#">
+								<img src="./images/editar.png" alt="" />
+							</a>
+						</td>
+						<td>
+							<a href="#">
+								<img src="./images/apagar.png" alt="" />
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>João Pedro Fogaça</td>
+						<td>email@email.com</td>
+						<td>9-A</td>
+						<td>
+							<a href="#">
+								<img src="./images/editar.png" alt="" />
+							</a>
+						</td>
+						<td>
+							<a href="#">
+								<img src="./images/apagar.png" alt="" />
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Enzo Araújo</td>
+						<td>email@email.com</td>
+						<td>9-A</td>
+						<td>
+							<a href="#">
+								<img src="./images/editar.png" alt="" />
+							</a>
+						</td>
+						<td>
+							<a href="#">
+								<img src="./images/apagar.png" alt="" />
+							</a>
+						</td>
+					</tr>
+				</table>
+				<div id="page">
+					<h3>1 / 1</h3>
+				</div>
+			</section>
+		</main>
+		<script src="./js/filter.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
