@@ -2,15 +2,12 @@ form {
 	background-color: white;
 	border-radius: 8px;
 	box-sizing: border-box;
-	font-family: "Roboto", sans-serif;
-	font-size: 14px;
-	margin: 56px auto;
+	margin: 50px auto;
 	max-width: 730px;
 	padding: 64px;
 }
 
 form h1 {
-	font-size: 36px;
 	margin-bottom: 20px;
 }
 
@@ -56,7 +53,6 @@ form input[disabled] {
 }
 
 form label {
-	font-size: 14px;
 	font-weight: lighter;
 	margin-bottom: 8px;
 }
@@ -77,8 +73,7 @@ form button {
 	background: #656fdb;
 	border-radius: 8px;
 	border: 0;
-	color: #f0f0f5;
-	font-size: 14px;
+	color: #f0f0f0;
 	font-weight: bold;
 	height: 56px;
 	width: 266px;

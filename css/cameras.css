@@ -2,29 +2,27 @@
 	background-color: white;
 	border-radius: 8px;
 	box-sizing: border-box;
-	font-family: "Roboto", sans-serif;
-	font-size: 20px;
-	margin: 67px auto;
+	font-family: "Ubuntu", sans-serif;
+	margin: 50px auto;
 	max-width: 1069px;
 	padding: 64px;
 }
 
 .container .title {
-	font-size: 36px;
 	margin-bottom: 26px;
 }
 
 .container .subtitle {
-	font-family: "Roboto";
+	font-family: "Ubuntu";
 	font-style: normal;
-	font-weight: 700;
-	font-size: 24px;
+	font-weight: 400;
+	font-size: 20px;
 	line-height: 28px;
 	color: #6c6c80;
 }
 
 .container-camera {
-	margin-top: 46px;
+	margin-top: 50px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -80,7 +78,7 @@
 	border: 2.5px solid #db6565;
 }
 
-ul li:nth-child(5) {
+ul li:nth-child(6) {
 	background-color: #5c65c6;
 	border-radius: 10px;
 }

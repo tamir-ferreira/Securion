@@ -3,13 +3,12 @@
 /*cinza escuro:  6C6C80*/
 
 main {
-	margin: 2em auto 50px;
+	margin: 50px auto;
 	background-color: #fff;
 	border-radius: 10px;
 	max-width: 715px;
-	width: 50%;
 	min-width: 300px;
-	padding: 67px 57px;
+	padding: 64px 57px;
 	font-size: 20px;
 }
 
@@ -24,9 +23,15 @@ header {
 	box-sizing: border-box;
 	width: 97px;
 	height: 37px;
-	color: #f0f0f5;
+	color: white;
 	background-color: #656fdb;
 	align-self: center;
+}
+
+.post-btn:hover {
+	background-color: #5c65c6;
+	cursor: pointer;
+	color: #f0f0f0;
 }
 
 .edit-box {
@@ -70,7 +75,7 @@ header {
 	outline: none;
 }
 
-button:hover {
+ul li:nth-child(5) {
 	background-color: #5c65c6;
-	cursor: pointer;
+	border-radius: 10px;
 }

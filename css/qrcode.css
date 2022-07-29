@@ -2,9 +2,7 @@
 	background-color: white;
 	border-radius: 8px;
 	box-sizing: border-box;
-	font-family: "Roboto", sans-serif;
-	font-size: 20px;
-	margin: 56px auto;
+	margin: 50px auto;
 	max-width: 730px;
 	padding: 64px;
 	text-align: center;
@@ -18,12 +16,6 @@
 @media (max-width: 400px) {
 	.container img {
 		width: 100%;
-	}
-	.container p {
-		font-size: 14px;
-	}
-	.container h1 {
-		font-size: 20px;
 	}
 }
 

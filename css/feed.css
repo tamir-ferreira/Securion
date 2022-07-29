@@ -2,12 +2,10 @@
 	background-color: white;
 	border-radius: 8px;
 	box-sizing: border-box;
-	font-family: "Roboto", sans-serif;
 	font-size: 20px;
-	margin: 67px auto;
+	margin: 50px auto;
 	max-width: 730px;
 	padding: 64px;
-	text-align: center;
 }
 
 .container img {
@@ -41,15 +39,9 @@
 }
 
 .container p {
-	font-family: "Roboto";
 	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 23px;
 	text-align: start;
-
-	/* Cinza escuro */
-	color: #6c6c80;
 }
 
 ul li:nth-child(3) {

@@ -16,20 +16,19 @@
 main {
 	align-items: center;
 	justify-content: center;
-	background: #f0f0f5;
-	margin: 50px 0 100px 0;
+	margin: 50px auto;
+	max-width: 1069px;
 }
 
 section {
 	background: white;
 	border-radius: 10px;
-	width: 80%;
-	padding-bottom: 80px;
+	padding: 64px;
 }
 
 div.adm-top {
 	align-items: flex-start;
-	margin: 50px 50px -20px 50px;
+	margin: 0 0 -20px 0;
 }
 
 div.adm-menu {
@@ -70,7 +69,7 @@ article {
 	border: 1px solid #6c6c80;
 	border-radius: 20px;
 	padding: 25px;
-	margin: 50px 5% 0 5%;
+	margin: 50px auto 0 auto;
 	text-align: justify;
 }
 
@@ -91,31 +90,14 @@ span.suggestion {
 
 h1 {
 	margin-bottom: 30px;
-	font-weight: 700;
-	font-size: 33px;
 }
 
 h2 {
 	margin-bottom: 25px;
-	color: #6c6c80;
-	font-family: "Roboto";
-	font-weight: 700;
-	font-size: 20px;
 }
 
 h3 {
-	font-size: 15px;
-	color: #6c6c80;
-	font-weight: 400;
-	font-family: "Roboto";
 	margin-top: 30px;
-}
-
-p {
-	font-family: "Roboto";
-	font-weight: 400;
-	font-size: 18px;
-	color: #6c6c80;
 }
 
 ul li:nth-child(3) {
@@ -123,7 +105,7 @@ ul li:nth-child(3) {
 	border-radius: 10px;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
 	.adm-menu {
 		justify-content: center;
 		gap: 15px;
