@@ -55,6 +55,7 @@ form input[disabled] {
 form label {
 	font-weight: lighter;
 	margin-bottom: 8px;
+	font-size: 14px;
 }
 
 @media screen and (min-width: 607px) {
