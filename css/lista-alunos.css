@@ -20,6 +20,7 @@ table ul li:nth-child(4) {
 
 main {
 	margin: 50px auto;
+	overflow-x: auto;
 }
 
 section.students-list {
@@ -95,6 +96,14 @@ button#new:hover {
 
 .editButton:hover {
 	cursor: pointer;
+}
+
+table tr:nth-child(even) .editButton {
+	background-color: #f9f9fd;
+}
+
+table tr:hover .editButton {
+	background-color: #f0f0f0;
 }
 
 input {
