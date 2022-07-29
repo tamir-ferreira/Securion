@@ -42,6 +42,11 @@ p {
 
 /* css navbar  */
 
+.navbar ul a { 
+	padding: 1em;     
+	margin: -1em; 
+}
+
 .navbar ul {
 	align-items: center;
 	background-color: #656fdb;
