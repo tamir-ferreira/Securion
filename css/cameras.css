@@ -29,6 +29,12 @@
 	gap: 20px;
 }
 
+.container-camera img {
+	width: 200px;
+	height: 148px;
+	border-radius: 10px;
+}
+
 @media screen and (max-width: 935px) {
 	.container-camera {
 		justify-content: center;
@@ -39,6 +45,7 @@
 	.container .title {
 		font-size: 30px;
 	}
+
 	.container .subtitle {
 		font-size: 18px;
 	}
