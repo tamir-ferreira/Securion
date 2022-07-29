@@ -51,6 +51,10 @@ form textarea {
 	resize: none;
 }
 
+form input[disabled] {
+	background-color: #c4c4c4;
+}
+
 form label {
 	font-size: 14px;
 	font-weight: lighter;
