@@ -8,7 +8,7 @@ main {
 	font-size: 20px;
 }
 
-header {
+header#tituloArt {
 	display: flex;
 	justify-content: space-between;
 }
@@ -65,7 +65,8 @@ header {
 	color: #6c6c80;
 }
 
-#tituloArt, #corpoArt {
+#tituloArt,
+#corpoArt {
 	word-break: break-word;
 }
 
