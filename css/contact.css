@@ -11,12 +11,19 @@ form {
 
 form h1 {
 	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+form span {
+	color: #6c6c80;
+	font-size: 14px;
+	font-weight: lighter;
 }
 
 form fieldset {
 	border: 0;
 	color: #6c6c80;
-	margin-top: 64px;
+	margin-top: 20px;
 }
 
 form .field {

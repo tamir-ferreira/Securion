@@ -48,12 +48,14 @@
 				<li class="navbar-links"><a href="./index.html">Sair</a></li>
 			</ul>
 		</nav>
-		<form action="" method="post" autocomplete="off">
+		<form action="" method="get" autocomplete="off">
 			<h1>Envie sua mensagem</h1>
+			<input onclick="isChecked();" type="checkbox" id="anonymous">
+            <span>Habilitar envio anônimo</span>
 			<fieldset>
 				<div class="field">
 					<label for="name">Nome</label>
-					<input type="text" name="name" required />
+					<input id="name" type="text" name="name" required />
 				</div>
 				</div>
 				<div class="field-group">
@@ -85,5 +87,6 @@
 			</div>
 		</form>
 		<script src="./js/script.js"></script>
+		<script src="./js/anonymous.js"></script>
 	</body>
 </html>
