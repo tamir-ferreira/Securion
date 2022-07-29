@@ -1,7 +1,5 @@
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 	outline: 0;
 	font-style: normal;
 }
@@ -49,7 +47,7 @@ div.article-title {
 	flex-direction: column;
 }
 
-.container button {
+.container button#new {
 	background-color: #656fdb;
 	width: 115px;
 	height: 45px;
@@ -60,13 +58,13 @@ div.article-title {
 	font-family: "Ubuntu";
 }
 
-.container button:hover {
+.container button#new:hover {
 	cursor: pointer;
 	background-color: #5c65c6;
 	color: #f0f0f0;
 }
 
-div.article-buttons a:first-child {
+div.article-buttons button:first-child {
 	margin-right: 15px;
 }
 
@@ -93,4 +91,14 @@ article.article p {
 ul li:nth-child(5) {
 	background-color: #5c65c6;
 	border-radius: 10px;
+}
+
+.editButton {
+	outline: none;
+	background-color: white;
+	border: none;
+}
+
+.editButton:hover {
+	cursor: pointer;
 }

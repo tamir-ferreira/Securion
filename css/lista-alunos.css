@@ -70,7 +70,7 @@ table tr:first-child:hover {
 	background-color: white;
 }
 
-button {
+button#new {
 	background-color: #656fdb;
 	width: 115px;
 	height: 45px;
@@ -81,10 +81,20 @@ button {
 	font-family: "Ubuntu";
 }
 
-button:hover {
+button#new:hover {
 	cursor: pointer;
 	background-color: #5c65c6;
 	color: #f0f0f0;
+}
+
+.editButton {
+	outline: none;
+	background-color: white;
+	border: none;
+}
+
+.editButton:hover {
+	cursor: pointer;
 }
 
 input {

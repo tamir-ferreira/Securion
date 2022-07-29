@@ -62,28 +62,33 @@
 					<div class="container article-menu">
 						<h1>Seus artigos</h1>
 						<a href="./edicao-artigo.html">
-							<button type="button">Novo +</button>
+							<button type="button" id="new">Novo +</button>
 						</a>
 					</div>
-					<article class="article">
+					<article class="article" id="article1">
 						<div class="container article-top">
 							<div class="article-title">
 								<h3>Postado em 24/07/2022</h3>
 								<h2>Implantação de Catracas</h2>
 							</div>
 							<div class="article-buttons">
-								<a href="#">
+								<button class="editButton" type="buton">
 									<img
 										src="./images/editar.png"
 										alt="editar artigo"
 									/>
-								</a>
-								<a href="#">
+								</button>
+								<button
+									class="editButton"
+									id="deleteArticle1"
+									type="buton"
+								>
 									<img
 										src="./images/apagar.png"
 										alt="apagar artigo"
+										id="deleteArticle1"
 									/>
-								</a>
+								</button>
 							</div>
 						</div>
 						<p>
@@ -112,25 +117,29 @@
 							que facilita o risco e incidentes.
 						</p>
 					</article>
-					<article class="article">
+					<article class="article" id="article2">
 						<div class="container article-top">
 							<div class="article-title">
 								<h3>Postado em 20/07/2022</h3>
 								<h2>Câmeras de Monitoramento</h2>
 							</div>
 							<div class="article-buttons">
-								<a href="#">
+								<button class="editButton" type="buton">
 									<img
 										src="./images/editar.png"
 										alt="editar artigo"
 									/>
-								</a>
-								<a href="#">
+								</button>
+								<button
+									class="editButton"
+									id="deleteArticle2"
+									type="buton"
+								>
 									<img
 										src="./images/apagar.png"
 										alt="apagar artigo"
 									/>
-								</a>
+								</button>
 							</div>
 						</div>
 						<p>
@@ -162,5 +171,6 @@
 			</section>
 		</main>
 		<script src="./js/script.js"></script>
+		<script src="./js/delete.js"></script>
 	</body>
 </html>
