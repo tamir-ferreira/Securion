@@ -69,6 +69,7 @@ main {
 	padding: 16px 24px;
 	color: #6c6c80;
 	font-weight: lighter;
+	font-family: Roboto, sans-serif;
 }
 
 #container-login button {
