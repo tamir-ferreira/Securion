@@ -50,44 +50,46 @@
 				</ul>
 			</nav>
 		</header>
-		<form action="" method="get" autocomplete="off">
-			<h1>Envie sua mensagem</h1>
-			<input onclick="isChecked();" type="checkbox" id="anonymous">
-            <span>Habilitar envio anônimo</span>
-			<fieldset>
-				<div class="field">
-					<label for="name">Nome</label>
-					<input id="name" type="text" name="name" required />
-				</div>
-				</div>
-				<div class="field-group">
+		<main>
+			<form action="" method="get" autocomplete="off">
+				<h1>Envie sua mensagem</h1>
+				<input onclick="isChecked();" type="checkbox" id="anonymous">
+				<span>Habilitar envio anônimo</span>
+				<fieldset>
 					<div class="field">
-						<label for="request">Tipo da Solicitação</label>
-						<select name="type" id="">
-							<option value="1">Sugestão</option>
-							<option value="2">Reclamação</option>
-							<option value="3">Denúncia</option>
-						</select>
+						<label for="name">Nome</label>
+						<input id="name" type="text" name="name" required />
+					</div>
+					</div>
+					<div class="field-group">
+						<div class="field">
+							<label for="request">Tipo da Solicitação</label>
+							<select name="type" id="">
+								<option value="1">Sugestão</option>
+								<option value="2">Reclamação</option>
+								<option value="3">Denúncia</option>
+							</select>
+						</div>
+						<div class="field">
+							<label for="subject">Assunto</label>
+							<input type="text" name="subject" required />
+						</div>
 					</div>
 					<div class="field">
-						<label for="subject">Assunto</label>
-						<input type="text" name="subject" required />
+						<label for="message">Mensagem</label>
+						<textarea
+							name="message"
+							id="message"
+							rows="5"
+							required=""
+						></textarea>
 					</div>
+				</fieldset>
+				<div class="field-button">
+					<button type="submit">Enviar</button>
 				</div>
-				<div class="field">
-					<label for="message">Mensagem</label>
-					<textarea
-						name="message"
-						id="message"
-						rows="5"
-						required=""
-					></textarea>
-				</div>
-			</fieldset>
-			<div class="field-button">
-				<button type="submit">Enviar</button>
-			</div>
-		</form>
+			</form>
+		</main>
 		<script src="./js/script.js"></script>
 		<script src="./js/anonymous.js"></script>
 	</body>
